@@ -65,7 +65,7 @@ section {
 
 /* Navigation Styles*/
 .navbar__menu {
-	width: 100%;
+	width: max-content;
 }
 .navbar__menu ul {
     padding-left: 0;
@@ -98,7 +98,7 @@ section {
     background: #fff;
     position: fixed;
     top: 0;
-    width: max-content;
+    width: 100%;
     z-index: 5;
 	overflow-x: scroll;
 }
