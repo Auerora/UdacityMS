@@ -64,6 +64,9 @@ section {
 /* ---- Module Rules ---- */
 
 /* Navigation Styles*/
+.navbar__menu {
+	width: 100%;
+}
 .navbar__menu ul {
     padding-left: 0;
     margin: 0;
@@ -95,7 +98,7 @@ section {
     background: #fff;
     position: fixed;
     top: 0;
-    width: auto;
+    width: max-content;
     z-index: 5;
 	overflow-x: auto;
 }
