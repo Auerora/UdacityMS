@@ -69,6 +69,7 @@ section {
     margin: 0;
     text-align: right;
     display: flex;
+	justify-content: space-between;
 }
 
 .navbar__menu li {
@@ -96,6 +97,7 @@ section {
     top: 0;
     width: 100%;
     z-index: 5;
+	height: 3em;
 }
 
 /* Footer Styles */
@@ -122,6 +124,7 @@ section {
         max-width: 50em;
         padding: 4em;
     }
+	.
 }
 
 section:nth-of-type(even) .landing__container {
