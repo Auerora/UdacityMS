@@ -95,8 +95,9 @@ section {
     background: #fff;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: auto;
     z-index: 5;
+	overflow-x: auto;
 }
 
 /* Footer Styles */
