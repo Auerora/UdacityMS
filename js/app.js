@@ -75,6 +75,7 @@ const addNavigationItems = () => {
         if (navigationItems[i][1].name == 'Home') {
             navigationLink.innerText = navigationItems[i][1].name;
             navigationLink.href = '#home';
+            navigationLink.classList.add("active");
         } else {
             navigationLink.innerText = navigationItems[i][1].name
             navigationLink.href = `#${navigationItems[i][1].href}`;
